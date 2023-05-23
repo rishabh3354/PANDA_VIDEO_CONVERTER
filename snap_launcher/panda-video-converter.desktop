@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+GenericName=panda-video-converter
+Name=PANDA VIDEO CONVERTER
+Type=Application
+Icon=panda-video-converter.png
+Keywords=video converter;audio converter; mp4 converter;mp3 converter;video to mp3 converter;
+Exec=panda-video-converter %F
+Categories=Utility;Qt;
+Terminal=false
+Name[en_US]=PANDA VIDEO CONVERTER
