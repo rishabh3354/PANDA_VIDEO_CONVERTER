@@ -16,8 +16,8 @@ environment:
 
 apps:
   panda-video-converter:
-    command: bin/desktop-launch panda-video-converter
-    desktop: panda-video-converter.desktop
+    command: bin/desktop-launch panda_video_converter
+    desktop: panda_video_converter.desktop
 
     plugs:
        - home
@@ -61,6 +61,6 @@ parts:
     source: snap_launcher/
     override-build: |
       snapcraftctl build
-      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/panda-video-converter.desktop
+      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/panda_video_converter.desktop
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
-      cp -rf ${SNAPCRAFT_PART_SRC}/panda-video-converter.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/panda-video-converter.desktop
+      cp -rf ${SNAPCRAFT_PART_SRC}/panda_video_converter.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/panda_video_converter.desktop
