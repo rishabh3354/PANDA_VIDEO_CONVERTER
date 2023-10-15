@@ -18,7 +18,8 @@ apps:
   panda-video-converter:
     command: bin/desktop-launch panda_video_converter
     desktop: panda_video_converter.desktop
-
+    environment:
+      DISABLE_WAYLAND: 1
     plugs:
        - home
        - gsettings
