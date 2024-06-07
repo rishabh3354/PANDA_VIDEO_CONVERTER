@@ -1,6 +1,6 @@
 name: panda-video-converter
 base: core20
-version: '2024.5.3'
+version: '2024.6.7'
 summary: Panda video converter for linux
 description: Panda video converter is a powerful tool for converting video and audio and supports almost all formats with modern and widely supported codecs
 grade: stable
