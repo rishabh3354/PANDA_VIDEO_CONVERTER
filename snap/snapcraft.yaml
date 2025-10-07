@@ -1,8 +1,8 @@
 name: panda-video-converter
-base: core20
-version: '2024.12.1'
+base: core22
+version: '2025.10.1'
 summary: Panda video converter for linux
-description: Panda video converter is a powerful tool for converting video and audio and supports almost all formats with modern and widely supported codecs
+description:  Panda video converter is a powerful tool for converting video and audio and supports almost all formats with modern and widely supported codecs
 grade: stable
 confinement: strict
 
@@ -12,10 +12,10 @@ architectures:
   - build-on: [amd64]
 
 environment:
-  SNAP_DESKTOP_RUNTIME: $SNAP/pyqt5-runtime-core20
+  SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22
 
 apps:
-  panda-video-converter:
+  panda_video_converter:
     command: bin/desktop-launch panda_video_converter
     desktop: panda_video_converter.desktop
     environment:
@@ -51,10 +51,10 @@ plugs:
     interface: content
     target: $SNAP/data-dir/sounds
     default-provider: gtk-common-themes
-  pyqt5-runtime-core20:
+  content-snap-core22:
     interface: content
-    target: $SNAP/pyqt5-runtime-core20
-    default-provider: pyqt5-runtime-core20
+    target: $SNAP/content-snap-core22
+    default-provider: content-snap-core22
 
 parts:
   snap-launcher:
@@ -65,3 +65,12 @@ parts:
       sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/panda_video_converter.desktop
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
       cp -rf ${SNAPCRAFT_PART_SRC}/panda_video_converter.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/panda_video_converter.desktop
+
+  panda_video_converter-binary:
+    plugin: dump
+    source: https://warlordsoftwares.com/static/app_builds/snap/PANDA_VIDEO_CONVERTER.tar.gz
+    source-type: tar
+    override-build: |
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
+      cp PANDA_VIDEO_CONVERTER ${SNAPCRAFT_PART_INSTALL}/bin/panda_video_converter
+      chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/panda_video_converter
