@@ -7,6 +7,22 @@ IF APP IS NOT LAUNCHING AFTER INSTALL, THEN RUN CMD BELOW IN YOUR SHELL
 
 **ABOUT APPLICATION :**
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Panda Video Converter** is a Powerful Tool for Converting **Video and Audio** files and supports almost **All Formats** with modern and widely supported codecs.
 
 **FEATURES :** 
