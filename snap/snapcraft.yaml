@@ -1,6 +1,6 @@
 name: panda-video-converter
 base: core22
-version: '2025.10.1'
+version: '2025.10.8'
 summary: Panda video converter for linux
 description:  Panda video converter is a powerful tool for converting video and audio and supports almost all formats with modern and widely supported codecs
 grade: stable
@@ -15,7 +15,7 @@ environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22
 
 apps:
-  panda-video-converter:
+  panda_video_converter:
     command: bin/desktop-launch panda_video_converter
     desktop: panda_video_converter.desktop
     environment:
@@ -66,7 +66,7 @@ parts:
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
       cp -rf ${SNAPCRAFT_PART_SRC}/panda_video_converter.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/panda_video_converter.desktop
 
-  panda-video-converter-binary:
+  panda_video_converter-binary:
     plugin: dump
     source: https://warlordsoftwares.com/static/app_builds/snap/PANDA_VIDEO_CONVERTER.tar.gz
     source-type: tar
