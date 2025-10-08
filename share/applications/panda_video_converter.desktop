@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=PANDA VIDEO CONVERTER
+StartupWMClass=PANDA VIDEO CONVERTER
+Comment=Panda Video Converter for Desktop
+GenericName=Panda Video Converter
+Exec=panda-video-converter.sh %u
+Icon=com.warlordsoftwares.panda-video-converter
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=video converter;audio converter;video compressor;mp4 converter;mp3 converter;videotomp3 converter ConvertPanda;
+Categories=Utility;
