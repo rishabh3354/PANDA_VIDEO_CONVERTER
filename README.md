@@ -97,17 +97,17 @@ and run
 `panda-video-converter`  
   
   
-## Screenshots of Panda Video Converter  
+## Screenshots of Panda Video Converter
+
+![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/video-convert-options.png?raw=true)  
   
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/panda-video-converter-warlordsoftwares_1.jpg?raw=true)  
+![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/home-page.png?raw=true)  
   
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/panda-video-converter-warlordsoftwares_2.jpg?raw=true)  
+![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/audio-convert-options.png?raw=true)  
   
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/panda-video-converter-warlordsoftwares_3.jpg?raw=true)  
+![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/app-settings.png?raw=true)  
   
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/panda-video-converter-warlordsoftwares_4.jpg?raw=true)  
-  
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/panda-video-converter-warlordsoftwares_5.jpg?raw=true)
+![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/system-monitor.png?raw=true)
 
 💡 *Some advanced features may require an in-app purchase.*
 
