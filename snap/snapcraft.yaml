@@ -1,6 +1,6 @@
 name: panda-video-converter
 base: core22
-version: '2026.7.2'
+version: '2026.7.23'
 summary: Panda video converter for linux
 description:  Panda video converter is a powerful tool for converting video and audio and supports almost all formats with modern and widely supported codecs
 grade: stable
@@ -19,7 +19,9 @@ apps:
     command: bin/desktop-launch panda_video_converter
     desktop: panda_video_converter.desktop
     environment:
-      DISABLE_WAYLAND: 1
+      APP_PLATFORM: "SNAP"
+      LIBVA_DRIVERS_PATH: $SNAP/content-snap-core22/usr/lib/x86_64-linux-gnu/dri:/var/lib/snapd/lib/gl/dri:/usr/lib/x86_64-linux-gnu/dri
+
     plugs:
        - home
        - gsettings
