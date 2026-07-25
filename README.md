@@ -43,58 +43,22 @@ Panda Video Converter combines the power of **FFmpeg** with an easy-to-use graph
 
 ---
 
-🛠️ **Setup & Permissions**
+### 🚀 Installation
 
-📌 **Enable GPU Hardware Acceleration**
+<p align="center">
+  <a href="https://snapcraft.io/panda_video_converter"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get it from the Snap Store"></a>&nbsp;
+  <a href="https://github.com/rishabh3354/PANDA_VIDEO_CONVERTER/releases/latest/download/PandaVideoConverter-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Get AppImage"></a>&nbsp;
+  <a href="https://github.com/rishabh3354/PANDA_VIDEO_CONVERTER/releases/latest/download/PANDA_VIDEO_CONVERTER.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download for Windows"></a>
+</p>
 
-To unlock GPU-powered video encoding, run the following commands:
-
-   sudo snap connect panda-video-converter:opengl
-   sudo snap connect panda-video-converter:hardware-observe
-   sudo snap connect panda-video-converter:system-observe
-
-
-📌 **Enable Access to External Media**
-
-Allow Panda Video Converter to access external drives, USBs, or DVDs:
-
-   sudo snap connect panda-video-converter:removable-media
-   sudo snap connect panda-video-converter:optical-drive
-
-📌 **Fix Missing CPU Temperature in System Monitor**
-
-If CPU temperature isn’t displayed correctly:
-
-   sudo snap connect panda-video-converter:hardware-observe
-
-This gives Panda Video Converter permission to read system sensor data.
-
-📌 **App Not Launching?**
-
-If Panda Video Converter fails to start after installation:
-
-   sudo snap remove panda-video-converter
-   sudo snap remove content-snap-core22 --purge
-   sudo snap install content-snap-core22
-   sudo snap install panda-video-converter
-   panda-video-converter
-
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Fedora%20%7C%20Arch-blue?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=flat-square&logo=windows&logoColor=white"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Flathub-Available-success?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Snap-Available-success?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/badge/AppImage-Available-00B4F0?style=flat-square&logo=appimage&logoColor=white"></a>
+</p>
 ---
-
-  
-## Install Panda Video Converter on Linux Desktop:  
-  
-**Snap**  
-  
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/panda-video-converter)  
-  
-Install with command-line  
-  
-`snap install panda-video-converter`  
-  
-and run  
-  
-`panda-video-converter`  
   
   
 ## Screenshots of Panda Video Converter
