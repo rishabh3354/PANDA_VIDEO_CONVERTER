@@ -73,7 +73,7 @@ Panda Video Converter combines the power of **FFmpeg** with an easy-to-use graph
   
 ![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/system-monitor.png?raw=true)
 
-💡 *Some advanced features may require an in-app purchase.*
+<sub>Some advanced features may require an in-app purchase.</sub>
 
 ---
 
