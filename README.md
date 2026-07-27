@@ -77,7 +77,7 @@ Panda Video Converter combines the power of **FFmpeg** with an easy-to-use graph
 
 ---
 
-<sub><sup>Keywords
+<sub><sup>Keywords:
 Linux video converter, FFmpeg GUI, 4K video converter, 8K converter, audio extractor, media transcoder, lossless converter, GPU video converter, HandBrake alternative, Ubuntu video converter, Linux MP4 to MP3 converter, MKV to MP4, VOB to MP4, Linux FFmpeg frontend, video compression Linux, Linux media converter app.*
 Compatible alternatives and comparisons: FFMpeg, HandBrake, Uniconverter, VideoProc Converter, Movavi, Freemake, WonderFox, AVC, Prism, Any Video Converter, CloudConvert, Aiseesoft Video Converter Ultimate, Tipard, Gihosoft, Zamzar, MediaCoder, and more.
 </sub></sup>
