@@ -47,8 +47,8 @@ Panda Video Converter combines the power of **FFmpeg** with an easy-to-use graph
 
 <p align="center">
   <a href="https://snapcraft.io/panda-video-converter"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get it from the Snap Store"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/PANDA_VIDEO_CONVERTER/releases/latest/download/PandaVideoConverter-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Get AppImage"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/PANDA_VIDEO_CONVERTER/releases/latest/download/PANDA_VIDEO_CONVERTER.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download for Windows"></a>
+  <a href="https://gitlab.com/warlordsoftwares/panda-video-converter/-/releases"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Get AppImage"></a>&nbsp;
+  <a href="https://gitlab.com/warlordsoftwares/panda-video-converter/-/releases"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download for Windows"></a>
 </p>
 
 <p align="center">
@@ -63,15 +63,15 @@ Panda Video Converter combines the power of **FFmpeg** with an easy-to-use graph
   
 ## Screenshots of Panda Video Converter
 
-![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/video-convert-options.png?raw=true)  
+![PANDA-VIDEO-CONVERTER](share/screenshots/video-convert-options.png)  
   
-![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/home-page.png?raw=true)  
+![PANDA-VIDEO-CONVERTER](share/screenshots/home-page.png)  
   
-![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/audio-convert-options.png?raw=true)  
+![PANDA-VIDEO-CONVERTER](share/screenshots/audio-convert-options.png)  
   
-![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/app-settings.png?raw=true)  
+![PANDA-VIDEO-CONVERTER](share/screenshots/app-settings.png)  
   
-![PANDA-VIDEO-CONVERTER](https://raw.githubusercontent.com/rishabh3354/PANDA_VIDEO_CONVERTER/main/share/screenshots/system-monitor.png?raw=true)
+![PANDA-VIDEO-CONVERTER](share/screenshots/system-monitor.png)
 
 <sub>Some advanced features may require an in-app purchase.</sub>
 
